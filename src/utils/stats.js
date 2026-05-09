@@ -1,12 +1,16 @@
 import albumData from '../../config/albums.json'
 
-// Build a flat song → album lookup
-const songAlbumMap = {}
-albumData.forEach(album => {
-  album.songs.forEach(song => {
-    songAlbumMap[song.toLowerCase()] = album
+// Build a flat song → release lookup, preferring album > ep > single > compilation > unreleased
+const TYPE_PRIORITY = { album: 0, ep: 1, single: 2, compilation: 3, unreleased: 4 }
+const songAlbumMap = {};
+[...albumData]
+  .sort((a, b) => (TYPE_PRIORITY[a.type] ?? 99) - (TYPE_PRIORITY[b.type] ?? 99))
+  .forEach(album => {
+    album.songs.forEach(song => {
+      const key = song.toLowerCase()
+      if (!(key in songAlbumMap)) songAlbumMap[key] = album
+    })
   })
-})
 
 export function getAlbum(songName) {
   return songAlbumMap[songName.toLowerCase()] || null
