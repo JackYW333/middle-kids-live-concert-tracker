@@ -60,8 +60,7 @@ export default function ReleasesPage({ data }) {
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: '1rem' }}>
               {releases.map(album => {
                 const cov = coverageMap[album.id]
-                const color = cov?.color ?? album.color
-                const textColor = luminance(color) > 0.45 ? '#111' : '#fff'
+                const textColor = luminance(album.color) > 0.45 ? '#111' : '#fff'
                 return (
                   <Link
                     key={album.id}
@@ -76,11 +75,11 @@ export default function ReleasesPage({ data }) {
                         overflow: 'hidden',
                         transition: 'border-color 0.15s',
                       }}
-                      onMouseEnter={e => e.currentTarget.style.borderColor = color}
+                      onMouseEnter={e => e.currentTarget.style.borderColor = album.color}
                       onMouseLeave={e => e.currentTarget.style.borderColor = 'var(--border)'}
                     >
                       {/* Art or colour swatch */}
-                      <div style={{ position: 'relative', aspectRatio: '1', background: color + '33' }}>
+                      <div style={{ position: 'relative', aspectRatio: '1', background: album.color + '33' }}>
                         {(album.imageUrl || album.mbid) && (
                           <img
                             src={album.imageUrl || `https://coverartarchive.org/release-group/${album.mbid}/front`}
@@ -90,7 +89,7 @@ export default function ReleasesPage({ data }) {
                           />
                         )}
                         {/* Colour strip at bottom */}
-                        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 4, background: color }} />
+                        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 4, background: album.color }} />
                       </div>
 
                       <div style={{ padding: '0.625rem 0.75rem' }}>
