@@ -1,19 +1,26 @@
 import albumData from '../../config/albums.json'
 
 // Build a flat song → release lookup, preferring album > ep > single > compilation > unreleased
-const TYPE_PRIORITY = { album: 0, ep: 1, single: 2, compilation: 3, unreleased: 4 }
+const TYPE_PRIORITY = { album: 0, ep: 1, single: 2, compilation: 3, unreleased: 4, unknown: 5 }
+
+// Normalize curly/smart apostrophes to straight apostrophe for reliable matching
+// against setlist.fm data which uses U+2019 curly quotes
+function normalizeTitle(s) {
+  return s.replace(/[‘’‛]/g, "'").toLowerCase()
+}
+
 const songAlbumMap = {};
 [...albumData]
   .sort((a, b) => (TYPE_PRIORITY[a.type] ?? 99) - (TYPE_PRIORITY[b.type] ?? 99))
   .forEach(album => {
     album.songs.forEach(song => {
-      const key = song.toLowerCase()
+      const key = normalizeTitle(song)
       if (!(key in songAlbumMap)) songAlbumMap[key] = album
     })
   })
 
 export function getAlbum(songName) {
-  return songAlbumMap[songName.toLowerCase()] || null
+  return songAlbumMap[normalizeTitle(songName)] || null
 }
 
 export function luminance(hex) {

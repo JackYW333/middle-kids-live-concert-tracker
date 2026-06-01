@@ -21,7 +21,7 @@
       "Lost Friends",
       "Never Start",
       "Tell Me Something",
-      "So Long, Farewell, I'm Gone"
+      "So Long Farewell I'm Gone"
     ]
   },
   {
@@ -92,6 +92,22 @@
       "Fire In Your Eyes",
       "Old River",
       "Doing It Right"
+    ]
+  },
+  {
+    "id": "unknown",
+    "name": "Unknown",
+    "year": null,
+    "releaseDate": null,
+    "label": null,
+    "spotifyUrl": null,
+    "type": "unknown",
+    "color": "#888888",
+    "mbid": null,
+    "songs": [
+      "Put It Out on the Line",
+      "Baby Let It Flow",
+      "Slowly"
     ]
   },
   {

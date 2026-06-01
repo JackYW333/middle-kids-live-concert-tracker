@@ -5,13 +5,14 @@ import { luminance } from '../utils/stats.js'
 import albumData from '../../config/albums.json'
 import AlbumDonut from '../components/AlbumDonut.jsx'
 
-const TYPE_ORDER = ['album', 'ep', 'single', 'compilation', 'unreleased']
+const TYPE_ORDER = ['album', 'ep', 'single', 'compilation', 'unreleased', 'unknown']
 const TYPE_LABELS = {
   album: 'Albums',
   ep: 'EPs',
   single: 'Singles',
   compilation: 'Compilations',
   unreleased: 'Unreleased',
+  unknown: 'Unknown',
 }
 
 export default function ReleasesPage({ data }) {
