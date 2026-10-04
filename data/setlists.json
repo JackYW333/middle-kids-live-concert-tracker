@@ -1,8 +1,22 @@
 {
-  "lastUpdated": "2026-10-03T14:27:20.026Z",
-  "total": 301,
+  "lastUpdated": "2026-10-04T15:01:37.509Z",
+  "total": 302,
   "totalWithSetlist": 166,
   "setlists": [
+    {
+      "id": "6b7f760e",
+      "date": "2026-10-03",
+      "venue": "Flagstaff Hill",
+      "city": "Wollongong",
+      "state": "New South Wales",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -34.4333333,
+      "lng": 150.8833333,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/middle-kids/2026/flagstaff-hill-wollongong-australia-6b7f760e.html",
+      "songs": []
+    },
     {
       "id": "7b5ace28",
       "date": "2025-03-01",
