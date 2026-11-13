@@ -1,8 +1,67 @@
 {
-  "lastUpdated": "2026-11-12T17:46:59.130Z",
-  "total": 302,
-  "totalWithSetlist": 166,
+  "lastUpdated": "2026-11-13T17:25:15.104Z",
+  "total": 303,
+  "totalWithSetlist": 167,
   "setlists": [
+    {
+      "id": "137d75d9",
+      "date": "2026-11-12",
+      "venue": "Backyard in Newtown",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -33.8678499639382,
+      "lng": 151.207323074341,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/middle-kids/2026/backyard-in-newtown-sydney-australia-137d75d9.html",
+      "songs": [
+        {
+          "name": "Stacking Chairs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Big Freak",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Your Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Edge of Town",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "High and Dry",
+          "tape": false,
+          "encore": 0,
+          "cover": {
+            "name": "Radiohead"
+          },
+          "info": null
+        },
+        {
+          "name": "Mistake",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
+    },
     {
       "id": "6b7f760e",
       "date": "2026-10-03",
