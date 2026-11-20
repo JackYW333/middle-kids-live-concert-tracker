@@ -1,8 +1,81 @@
 {
-  "lastUpdated": "2026-11-19T18:43:18.954Z",
-  "total": 303,
-  "totalWithSetlist": 167,
+  "lastUpdated": "2026-11-20T18:05:18.542Z",
+  "total": 304,
+  "totalWithSetlist": 168,
   "setlists": [
+    {
+      "id": "7b7a9a20",
+      "date": "2026-11-18",
+      "venue": "Botany View Hotel",
+      "city": "Sydney",
+      "state": "New South Wales",
+      "country": "Australia",
+      "countryCode": "AU",
+      "lat": -33.8678499639382,
+      "lng": 151.207323074341,
+      "tour": null,
+      "setlistFmUrl": "https://www.setlist.fm/setlist/middle-kids/2026/botany-view-hotel-sydney-australia-7b7a9a20.html",
+      "songs": [
+        {
+          "name": "Stacking Chairs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "High and Dry",
+          "tape": false,
+          "encore": 0,
+          "cover": {
+            "name": "Radiohead"
+          },
+          "info": null
+        },
+        {
+          "name": "Big Freak",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Edge of Town",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Prepared for Anything",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Minerva",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Never Start",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cellophane (Brain)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        }
+      ]
+    },
     {
       "id": "137d75d9",
       "date": "2026-11-12",
@@ -32,6 +105,13 @@
         },
         {
           "name": "Your Love",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Prepared for Anything",
           "tape": false,
           "encore": 0,
           "cover": null,
