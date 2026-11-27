@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-11-26T19:19:47.206Z",
+  "lastUpdated": "2026-11-27T19:13:41.948Z",
   "total": 305,
-  "totalWithSetlist": 168,
+  "totalWithSetlist": 169,
   "setlists": [
     {
       "id": "4b7ae70e",
@@ -15,7 +15,71 @@
       "lng": 151.207323074341,
       "tour": null,
       "setlistFmUrl": "https://www.setlist.fm/setlist/middle-kids/2026/waywards-sydney-australia-4b7ae70e.html",
-      "songs": []
+      "songs": [
+        {
+          "name": "Edge of Town",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Prepared for Anything",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Big Freak",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Mistake",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Minerva",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Stacking Chairs",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Cellophane (Brain)",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Never Start",
+          "tape": false,
+          "encore": 0,
+          "cover": null,
+          "info": null
+        },
+        {
+          "name": "Bend",
+          "tape": false,
+          "encore": 1,
+          "cover": null,
+          "info": null
+        }
+      ]
     },
     {
       "id": "7b7a9a20",
